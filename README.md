@@ -5,6 +5,8 @@ AI 시스템을 구축할 때 반드시 고려해야 하는 **4가지 핵심 레
 
 세 문서는 동일한 "책 추천 봇" 예제를 사용해, 같은 개념이 각 AI의 API에서 어떻게 구현되는지 비교할 수 있도록 구성했습니다.
 
+![AI 엔지니어링의 4가지 레이어](img/ai-engineering-4-layers.png)
+
 ---
 
 ## 📚 3대 AI 문서
@@ -66,6 +68,11 @@ ai-engineering/
 │   ├── claude.md          # Claude(클로드) 기준 4가지 레이어 상세
 │   ├── gemini.md          # Gemini(제미나이) 기준 4가지 레이어 상세
 │   └── chatgpt.md         # ChatGPT(챗지피티) 기준 4가지 레이어 상세
+├── img/
+│   ├── ai-engineering-4-layers.png            # 4가지 레이어 개념도
+│   ├── claude-code-proejct-structure.png      # Claude Code 프로젝트 구조
+│   ├── gemini-cli-project-structure.png       # Gemini CLI 프로젝트 구조
+│   └── chatgpt-codex-project-structure.png    # Codex CLI(ChatGPT) 프로젝트 구조
 └── scripts/
     └── system_prompt.md   # 데이터셋 법적 리스크 검토 시스템 프롬프트
                            # (문장 끝에 클릭 가능한 출처 링크 [N] 자동 명시)
